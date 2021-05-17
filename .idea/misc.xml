@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/HelloSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-03-ioc2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-04-di/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-05-autuwird/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-06-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-07-appconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-08-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-09-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-10-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-11-transactionDemo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-03-ioc2/spring-04-di/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

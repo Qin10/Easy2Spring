@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-03-ioc2/spring-03-ioc2.iml" filepath="$PROJECT_DIR$/spring-03-ioc2/spring-03-ioc2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-04-di/spring-04-di.iml" filepath="$PROJECT_DIR$/spring-04-di/spring-04-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-06-annotation/spring-06-annotation.iml" filepath="$PROJECT_DIR$/spring-06-annotation/spring-06-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-07-appconfig/spring-07-appconfig.iml" filepath="$PROJECT_DIR$/spring-07-appconfig/spring-07-appconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-08-proxy/spring-08-proxy.iml" filepath="$PROJECT_DIR$/spring-08-proxy/spring-08-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-09-aop/spring-09-aop.iml" filepath="$PROJECT_DIR$/spring-09-aop/spring-09-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-10-mybatis/spring-10-mybatis.iml" filepath="$PROJECT_DIR$/spring-10-mybatis/spring-10-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-11-transactionDemo/spring-11-transactionDemo.iml" filepath="$PROJECT_DIR$/spring-11-transactionDemo/spring-11-transactionDemo.iml" />
+    </modules>
+  </component>
+</project>

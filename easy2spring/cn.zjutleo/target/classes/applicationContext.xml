@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        ">
+
+    <!-- 声明userDao对象,由spring容器创建 -->
+    <bean name="userDao" class="cn.zjutleo.dao.UserDaoImpl"/>
+
+    <!-- 声明userService对象,由spring容器创建 -->
+    <bean name="userService" class="cn.zjutleo.service.UserServiceImpl">
+        <!-- 通过set方法注入上面声明的userDao对象 -->
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <bean id="user" scope="prototype" class="cn.zjutleo.pojo.User">
+        <property name="name" value="Leo"/>
+        <!-- 注入List -->
+        <property name="hobbyList">
+            <list>
+                <value>干饭</value>
+                <value>睡觉</value>
+                <value>浪</value>
+            </list>
+        </property>
+        <!-- 注入Set -->
+        <property name="sonSet">
+            <set>
+                <value>SZB</value>
+                <value>PCY</value>
+            </set>
+        </property>
+        <!-- 注入Map -->
+        <property name="bookMap">
+            <map>
+                <entry key="01" value="《霸道总裁爱上我》"/>
+                <entry key="02" value="《让富婆爱上你的一百种方法》"/>
+                <entry key="03" value="《九阴真经》"/>
+            </map>
+        </property>
+        <!-- 注入Array -->
+        <property name="array">
+            <array>
+                <value>Messi</value>
+                <value>歪比巴卜</value>
+            </array>
+        </property>
+    </bean>
+
+</beans>
